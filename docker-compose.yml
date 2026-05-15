@@ -1,0 +1,31 @@
+services:
+
+  app:
+    image: webdevops/php-apache:8.2
+    container_name: laravel_rs
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:80"
+    environment:
+      WEB_DOCUMENT_ROOT: /app/public
+
+  mysql:
+    image: mysql:8
+    container_name: mysql_rs
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: laravel
+    ports:
+      - "3306:3306"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_rs
+    restart: always
+    environment:
+      PMA_HOST: mysql
+    ports:
+      - "8081:80"

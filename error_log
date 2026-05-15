@@ -1,0 +1,15 @@
+[06-Feb-2025 02:45:38 UTC] PHP Warning:  require(/home/amanahm6/dev-profile.amanahmedicalcentre.co.id/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php on line 13
+[06-Feb-2025 02:45:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amanahm6/dev-profile.amanahmedicalcentre.co.id/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php on line 13
+[06-Feb-2025 02:45:40 UTC] PHP Warning:  require(/home/amanahm6/dev-profile.amanahmedicalcentre.co.id/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php on line 13
+[06-Feb-2025 02:45:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amanahm6/dev-profile.amanahmedicalcentre.co.id/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php on line 13
+[06-Feb-2025 02:45:45 UTC] PHP Warning:  require(/home/amanahm6/dev-profile.amanahmedicalcentre.co.id/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php on line 13
+[06-Feb-2025 02:45:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/amanahm6/dev-profile.amanahmedicalcentre.co.id/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/amanahm6/dev-profile.amanahmedicalcentre.co.id/index.php on line 13
